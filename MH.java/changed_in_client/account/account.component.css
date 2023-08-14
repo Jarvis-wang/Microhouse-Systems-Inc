@@ -1,0 +1,53 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.example-container>* {
+    width: 30%;
+}
+
+.id_column {
+    flex: 0 30%;
+}
+
+.acct_type_column {
+    flex: 0 30%;
+}
+
+.balance_column {
+    flex: 0 60%;
+}
+.balance_column1 {
+    display: flex;
+     justify-content: flex-end;
+}
+.table-header-title {
+    text-align: left;
+    color: #4CAF50;
+    font-size: large;
+    font-weight: bold;
+}
+
+mat-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+mat-header-cell {
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+}
+
+mat-header-row {
+    background-color: #4CAF50;
+}
+
+mat-row:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+mat-row:hover {
+    background-color: #ddd;
+}
